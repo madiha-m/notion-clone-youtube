@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 const Home = () => {
   return (
-    <div className="p-10 bg-shop_light_pink">
+    <div className="bg-shop_light_pink">
       <p className="text-xl fon t-semibold">
         Home Page
       </p>

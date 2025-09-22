@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Footer, Header } from "@/components";
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +20,9 @@ export default function RootLayout({
       <body
         className={`font-poppins antialiased`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
