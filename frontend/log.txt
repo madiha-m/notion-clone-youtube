@@ -1,0 +1,1 @@
+Initialized Next.js app with ShadCN and Clerk setup
